@@ -1,0 +1,24 @@
+{
+    "name": "mozgovoyandrey/yii2-users-module",
+    "description": "The users module for Yii2 application.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "users", "module", "yii 2"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mozgovoy",
+            "email": "mozgovoy.andrey@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-jui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mozgovoyandrey\\users\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "mozgovoyandrey\\users\\Bootstrap"
+    }
+}
